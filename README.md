@@ -1,6 +1,6 @@
 # ransec_testing
 
-A collection of utilities to test, generate and and analyze data 'random' and 'secrets' modules with Matplotlib, NumPy and SciPy in Python.
+A collection of utilities to test, generate and and analyze data from 'random' and 'secrets' modules with Matplotlib, NumPy and SciPy in Python.
 
 The purpose of this repository is to provide a set of tools that simplify generation of random data in various amounts via different techniques, as well as interpretation and visualization of that data using graphs.
 

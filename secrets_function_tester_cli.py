@@ -43,14 +43,15 @@ def generate_data(data):
     return data
 
 # Example usage of the export2excel function.
-#export2excel(data, 'secrets_function_tester_cli.xlsx')
+export2excel(data, 'secrets_function_tester_cli.xlsx')
 
 # Example usage of the export2csv function.
-#export2csv(data, 'secrets_function_tester_cli.csv')
+export2csv(data, 'secrets_function_tester_cli.csv')
 
 # Example usage of the export2tsv function.
-#export2tsv(data, 'secrets_function_tester_cli.tsv')
+export2tsv(data, 'secrets_function_tester_cli.tsv')
 
+"""
 # Example multiple usage of the export2csv function.
 # Loop 5 times.
 for i in range(5):
@@ -60,3 +61,4 @@ for i in range(5):
     output_name = f'secrets_function_tester_cli{i+1}.csv'
     # Export data to CSV file with unique file name.
     export2csv(data, output_name)
+"""
